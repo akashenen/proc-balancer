@@ -82,8 +82,9 @@ public class ProcTester : MonoBehaviour {
         log += "Tested " + desiredChance * 100 + "% chance in " + tries + " tries.\n";
         log += "Balanced results hits: " + balancedProcs + " - " + 1f * balancedProcs / tries * 100 + "%\n";
         log += "Normal results hits: " + normalProcs + " - " + 1f * normalProcs / tries * 100 + "%\n";
-        log += "Highest chance: " + highestChance + "; Lowest Chance: " + lowestChance;
-        log += "Chance occurence:\n";
+        log += "Highest chance: " + highestChance * 100 + "%\n";
+        log += "Lowest Chance: " + lowestChance * 100 + "%\n";
+        log += "Chance occurence: \n ";
         foreach (var item in procCount) {
             log += item.Key * 100 + "% - " + item.Value + " times\n";
         }

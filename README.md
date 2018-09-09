@@ -15,11 +15,11 @@ The basic method used for balancing procs starts out with the same chance as the
 
 Included in the code there's a unity scene that allows you to test different chances, ratios and amount of tries, creating a graph and a log with information comparing the results with 'true random' ones.
 
-![demo](https://gitlab.com/akashenen/proc-balancer/raw/master/demo.png)
+![demo](https://github.com/akashenen/proc-balancer/blob/master/demo.png?raw=true)
 
 ## Authors
 
-* [Akashenen](https://gitlab.com/akashenen/)
+* [Akashenen](https://github.com/akashenen/)
 
 ## License
 

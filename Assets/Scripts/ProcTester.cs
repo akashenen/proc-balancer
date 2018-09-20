@@ -77,6 +77,7 @@ public class ProcTester : MonoBehaviour {
             Destroy(item.gameObject);
         }
         columns.Clear();
+        procCount.Clear();
     }
 
     private void LogProcs(int balancedProcs, int normalProcs) {

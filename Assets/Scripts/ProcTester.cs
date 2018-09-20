@@ -5,12 +5,14 @@ using UnityEngine.UI;
 
 public class ProcTester : MonoBehaviour {
 
+    //Scene Objects
     public RectTransform line;
     public RectTransform column;
     public RectTransform background;
     public InputField chanceInput;
     public InputField triesInput;
     public InputField balanceRatioInput;
+    public LogWindow logWindow;
 
     private float desiredChance;
     private float balanceRatio;
@@ -89,5 +91,6 @@ public class ProcTester : MonoBehaviour {
             log += item.Key * 100 + "% - " + item.Value + " times\n";
         }
         Debug.Log(log);
+        logWindow.UpdateText(log);
     }
 }

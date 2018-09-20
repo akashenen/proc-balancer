@@ -25,7 +25,7 @@ public class LogWindow : MonoBehaviour {
 
 	public void ToggleText() {
 		show = !show;
-		buttonText.text = show?showText : hideText;
+		buttonText.text = show?hideText : showText;
 		animator.SetBool("show", show);
 	}
 
